@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cheking</servlet-name>
+    <servlet-class>wang.service.Checking</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowLogServlet</servlet-name>
+    <servlet-class>wang.service.ShowLogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>wang.service.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>wang.service.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InputServlet</servlet-name>
+    <servlet-class>wang.service.InputServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Back2FirstServlet</servlet-name>
+    <servlet-class>wang.service.Back2FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownLoadLog</servlet-name>
+    <servlet-class>wang.service.DownLoadLog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClearDB</servlet-name>
+    <servlet-class>Manager.ClearDB</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAllUserFileServlet</servlet-name>
+    <servlet-class>wang.service.DeleteAllUserFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowResultServlet</servlet-name>
+    <servlet-class>wang.service.ShowResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownLoadResultServlet</servlet-name>
+    <servlet-class>wang.service.DownLoadResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestHistory</servlet-name>
+    <servlet-class>wang.service.TestHistory</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>clearData</servlet-name>
+    <servlet-class>wang.service.clearData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetHistoryMsg</servlet-name>
+    <servlet-class>wang.service.GetHistoryMsg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClearHistory</servlet-name>
+    <servlet-class>wang.service.ClearHistory</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PeiZhi</servlet-name>
+    <servlet-class>wang.service.PeiZhi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet4Admin</servlet-name>
+    <servlet-class>wang.service.RegisterServlet4Admin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelpServlet</servlet-name>
+    <servlet-class>wang.service.HelpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadHelpServlet</servlet-name>
+    <servlet-class>wang.service.DownloadHelpServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Cheking</servlet-name>
+    <url-pattern>/servlet/Checking</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowLogServlet</servlet-name>
+    <url-pattern>/servlet/ShowLogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InputServlet</servlet-name>
+    <url-pattern>/servlet/InputServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back2FirstServlet</servlet-name>
+    <url-pattern>/servlet/Back2FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadLog</servlet-name>
+    <url-pattern>/servlet/DownLoadLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearDB</servlet-name>
+    <url-pattern>/servlet/ClearDB</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAllUserFileServlet</servlet-name>
+    <url-pattern>/servlet/DeleteAllUserFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowResultServlet</servlet-name>
+    <url-pattern>/servlet/ShowResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadResultServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestHistory</servlet-name>
+    <url-pattern>/servlet/TestHistory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clearData</servlet-name>
+    <url-pattern>/servlet/clearData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHistoryMsg</servlet-name>
+    <url-pattern>/servlet/GetHistoryMsg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearHistory</servlet-name>
+    <url-pattern>/servlet/ClearHistory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PeiZhi</servlet-name>
+    <url-pattern>/servlet/PeiZhi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet4Admin</servlet-name>
+    <url-pattern>/servlet/RegisterServlet4Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelpServlet</servlet-name>
+    <url-pattern>/servlet/HelpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadHelpServlet</servlet-name>
+    <url-pattern>/servlet/DownloadHelpServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
