@@ -1,0 +1,65 @@
+
+	数据库表名采用   拼音_PCRF_接口名称
+				如： huawei_PCRF_Gx
+				
+				
+				create table huawei_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				create table ailixin_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				create table nuoxi_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				create table zhongxing_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				create table beier_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				create table xinyoutong_PCRF_Gx(
+					test_number varchar(30) default '未测试',
+					ailixin_PCEF varchar(50) default '未测试',
+					nuoxi_PCEF varchar(50) default '未测试',
+					zhongxing_PCEF varchar(50) default '未测试',
+					beier_PCEF varchar(50) default '未测试',
+					huawei_PCEF varchar(50) default '未测试'
+				);
+				
+				insert into xinyoutong_PCRF_Gx(test_number) value("5.1.1.4"),("5.1.1.5");
+				insert into beier_PCRF_Gx(test_number) value("5.1.1.1"),("5.1.1.2"),("5.1.1.3"),("5.1.1.4"),("5.1.1.5");
+				insert into zhongxing_PCRF_Gx(test_number) value("5.1.1.1"),("5.1.1.2"),("5.1.1.3"),("5.1.1.4"),("5.1.1.5");
+				insert into nuoxi_PCRF_Gx(test_number) value("5.1.1.1"),("5.1.1.2"),("5.1.1.3"),("5.1.1.4"),("5.1.1.5");
+				insert into ailixin_PCRF_Gx(test_number) value("5.1.1.1"),("5.1.1.2"),("5.1.1.3"),("5.1.1.4"),("5.1.1.5");
+				insert into huawei_PCRF_Gx(test_number) value("5.1.1.1"),("5.1.1.2"),("5.1.1.3"),("5.1.1.4"),("5.1.1.5");
