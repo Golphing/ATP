@@ -1,0 +1,9 @@
+#Wed Nov 26 12:22:11 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/register.jsp=UTF-8
+encoding//src/wang/service/ShowLogServlet.java=UTF-8
+encoding//src/wang/thread/DealPacket.java=UTF-8
+encoding//src/wang/thread/MatchThread.java=UTF-8
+encoding//src/wang/utils/FileDao.java=UTF-8
+encoding/<project>=UTF-8
